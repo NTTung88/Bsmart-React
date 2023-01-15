@@ -1,0 +1,90 @@
+// .sidebar-wrap .sidebar-content .sidebar-top {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+// }
+// .sidebar-wrap .sidebar-content .sidebar-top .sidebar-logo {
+//     font-weight: 700;
+//     color: #0e0a38;
+//     font-size: 30px;
+//     line-height: 1.42857143;
+// }
+.sidebar-wrap .sidebar-content .sidebar-top .sidebar-logo i {
+    font-size: 30px !important;
+}
+.sidebar-wrap .sidebar-content .sidebar-center {
+    padding-top: 20px;
+}
+.sidebar-wrap .sidebar-content .sidebar-center .sidebar-mean-nav li {
+    padding: 12px 0;
+    border-top: 1px solid #f5f5f5;
+    position: relative;
+}
+.sidebar-wrap .sidebar-content .sidebar-center .sidebar-mean-nav li a:first-child {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0e0a38;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.sidebar-wrap .sidebar-content .sidebar-center .sidebar-mean-nav li .sub-menu {
+    display: none;
+    width: 90%;
+}
+.sidebar-wrap .sidebar-content .sidebar-center .sidebar-mean-nav li .mean-expand {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px;
+    font-size: 16px;
+    color: #0e0a38;
+}
+.sidebar-wrap .sidebar-content .sidebar-center .sidebar-mean-nav li .mean-non-expand {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px;
+    font-size: 16px;
+    color: #0e0a38;
+}
+.sidebar-wrap .sidebar-content .sidebar-center .sidebar-mean-nav li:last-child {
+    border-bottom: none;
+}
+.sidebar-wrap .sidebar-content .sidebar-center .sidebar-mean-nav li:first-child {
+    border-top: none;
+}
+.sidebar-wrap .sidebar-content .sidebar-bottom .search-course {
+    margin: 20px 0 25px;
+    position: relative;
+}
+.sidebar-wrap .sidebar-content .sidebar-bottom .search-course input {
+    padding: 10px 30px 10px 10px;
+}
+.sidebar-wrap .sidebar-content .sidebar-bottom .search-course span {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.sidebar-wrap .sidebar-content .sidebar-bottom .contact-info i {
+    margin-right: 10px;
+    color: #ff630e;
+}
+.sidebar-wrap .sidebar-content .sidebar-bottom .social-list {
+    margin: 20px 0;
+}
+.sidebar-wrap .sidebar-content .sidebar-bottom .social-list li {
+    margin-right: 10px;
+    display: inline-block;
+}
+.sidebar-wrap .sidebar-content .sidebar-bottom .social-list li Link {
+    color: #0e0a38;
+}
+.sidebar-wrap .sidebar-content .sidebar-bottom .sidebar-controls li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.sidebar-wrap .sidebar-content .sidebar-bottom .sidebar-controls li a {
+    color: #0e0a38;
+    color: 16px;
+}
